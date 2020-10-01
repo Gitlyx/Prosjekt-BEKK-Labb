@@ -12,7 +12,7 @@ nav {
 .navigation {
     display: flex;
     justify-content: space-between;
-    color: #e8e8e8;
+    color: ##f7f7f7;
     font-size: 16px;
     font-weight: 600;
     padding-left: 200px;
@@ -26,24 +26,26 @@ main {
 }
 
 section {
-    margin: 20px;
+    margin: 5px;
     padding: 10px;
     border: 2px solid #625261;
     display: flex;
-    text-align: left;
-    flex-wrap: wrap;
 }
 
 .textbox {
-    padding-left: 50px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .chibi {
-    height: 250px;
+    justify-content: center;
+    height: 180px;
 }
 
 h3 {
     align-content: center;
+    padding-left: 20px;
     color: #625261;
     font-size: 40px;
     font-weight: 800;
@@ -60,26 +62,28 @@ h3 {
 
 .picker {
     justify-content: center;
-    color: white;
+    color: #f7f7f7;
     background-color: #625261;
 }
 
 button {
     display: inline-block;
-    margin: 10px 20px 10px 20px;
+    margin: 10px 10px 10px 10px;
     background-color: #e8e8e8;
     border: none;
-    width: 100px;
+    width: 80px;
     height: 30px;
     border-radius: 2px;
 }
 
 button:hover {
     display: inline-block;
-    margin: 10px 20px 10px 20px;
-    background-color: gray;
+    margin: 10px 10px 10px 10px;
+    background-color: rgb(190, 190, 190);
     border: none;
-    width: 100px;
+    width: 80px;
     height: 30px;
     border-radius: 2px;
+    cursor: pointer;
+    box-shadow: #625261;
 }
